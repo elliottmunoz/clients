@@ -6,7 +6,6 @@
 </head>
 <body>
   <h1>Hotzones</h1>
-  <p>Change pixel resolution <input type="range" min="4" max="100" value="32" id="range" /> <span id="output">32</span></p>
   <div>
     <img src="assets/images/hotzone/brad-ziegler-strike-zone.png" id="brad-ziegler" />
     <img src="assets/images/hotzone/brandon-mccarthy-strike-zone.png" id="brandon-mccarthy" />
@@ -30,15 +29,7 @@
       var pixelPitcher1 = pitcher1.closePixelate( pixelOpts )
       var pixelPitcher2 = pitcher2.closePixelate( pixelOpts )
       var pixelPitcher3 = pitcher3.closePixelate( pixelOpts )
-      var range = document.getElementById('range')
-      var output = document.getElementById('output')
 
-      range.addEventListener( 'change', function( event ) {
-        var res = parseInt( event.target.value, 10 )
-        res = Math.floor( res / 2 ) * 2
-        res = Math.max( 4, Math.min( 100, res ) )
-        output.textContent = res
-    // console.log( res );
     pixelOpts = [ { resolution: res } ]
     pixelPitcher1.render( pixelOpts )
     pixelPitcher2.render( pixelOpts )
