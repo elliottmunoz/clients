@@ -19,14 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "profile.html",
-			"settings":
-			{
-				"buffer_size": 4866,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -84,6 +76,8 @@
 	},
 	"file_history":
 	[
+		"/Users/elliottmunoz/GitHub/clients/e/assets/javascripts/pointers.js",
+		"/Users/elliottmunoz/GitHub/clients/e/pointers.html",
 		"/Users/elliottmunoz/GitHub/svg/post.html",
 		"/Users/elliottmunoz/GitHub/mapbox/africa.html",
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/ellipse.svg",
@@ -208,38 +202,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "profile.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 4866,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								733,
-								733
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 289.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

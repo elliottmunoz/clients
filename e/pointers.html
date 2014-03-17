@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Diamondback Pointers">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Diamondback</title>
+	<style type="text/css">
+		body{background: black; margin: 0px; padding: 0px;}
+		.pointer, .sequence{width: 100%; position: absolute;}
+		.pointer img, .step img{display: block; width: 100%;}
+		.stat{width: 300px; color: white; position: absolute;left: 850px; top: 100px;}
+		#circle1{fill:red;stroke: blue;}
+	</style>
+
+</head>
+<body>
+    <div class="sequence">
+      <div class="step">
+        <img src="assets/images/sequence/ziegler.png" alt="Ziegler"/>
+      </div>
+    </div>
+	<div class="pointers">
+		<span class="pointer">
+			<object src="assets/svg/pointer1.svg" alt="pointer"type="image/svg+xml"></object>
+		</span>
+		<span class="pointer">
+			<img src="assets/svg/pointer2.svg" alt="pointer"/>
+		</span>
+		<div class="stat" id="ziegler-1">“There’s no right way to throw. For me, it’s mostly as easy as stepping onto the mound with my right foot first instead of my left. Other than that, just find something that feels comfortable and go from there.”</div>
+	</div>
+	<script src="assets/javascripts/pointers.js"></script>
+</body>
+</html>
