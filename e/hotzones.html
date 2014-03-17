@@ -32,11 +32,11 @@
       var pitcher8 = document.getElementById('randall-delgado')
 
       var pixelOpts = [
-  { shape: 'diamond', resolution: 14, size: 27, offset: 15, alpha: 0.991 },
-  { shape: 'circle', resolution: 50, size: 48, offset: 0, alpha: 0.651 },
-  { shape: 'circle', resolution: 50, size: 23, offset: 8, alpha: 0.501 },
-  { shape: 'circle', resolution: 50, size: 11, offset: 8, alpha: 0.441 }
-]
+      { shape: 'diamond', resolution: 14, size: 27, offset: 15, alpha: 0.991 },
+      { shape: 'circle', resolution: 50, size: 48, offset: 0, alpha: 0.651 },
+      { shape: 'circle', resolution: 50, size: 23, offset: 8, alpha: 0.501 },
+      { shape: 'circle', resolution: 50, size: 11, offset: 8, alpha: 0.441 }
+      ]
       var pixelPitcher1 = pitcher1.closePixelate( pixelOpts )
       var pixelPitcher2 = pitcher2.closePixelate( pixelOpts )
       var pixelPitcher3 = pitcher3.closePixelate( pixelOpts )
@@ -45,23 +45,17 @@
       var pixelPitcher6 = pitcher6.closePixelate( pixelOpts )
       var pixelPitcher7 = pitcher7.closePixelate( pixelOpts )
       var pixelPitcher8 = pitcher8.closePixelate( pixelOpts )
-/*
+
       var range = document.getElementById('range')
       var output = document.getElementById('output')
 
       range.addEventListener( 'change', function( event ) {
-        var res = parseInt( event.target.value, 10 )
+        /*var res = parseInt( event.target.value, 10 )
         res = Math.floor( res / 2 ) * 2
         res = Math.max( 4, Math.min( 100, res ) )
         output.textContent = res
     // console.log( res );
-
-    pixelOpts = [ { resolution: res } ]
-
-
-  }, false )
-    }
-    */
+    pixelOpts = [ { resolution: res } ]*/
     pixelPitcher1.render( pixelOpts )
     pixelPitcher2.render( pixelOpts )
     pixelPitcher3.render( pixelOpts )
@@ -70,6 +64,10 @@
     pixelPitcher6.render( pixelOpts )
     pixelPitcher7.render( pixelOpts )
     pixelPitcher8.render( pixelOpts )
+
+  }, false )
+    }
+
 
 
   </script>
