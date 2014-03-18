@@ -76,6 +76,10 @@
 	},
 	"file_history":
 	[
+		"/Users/elliottmunoz/Dropbox/Speaking/SVG/grid.as",
+		"/Users/elliottmunoz/GitHub/clients/e/assets/javascripts/close-pixelate.js",
+		"/Users/elliottmunoz/GitHub/clients/e/hotzones.html",
+		"/Users/elliottmunoz/Dropbox/Clients/ESPN/Diamondback/Comps/psd/resources/vector/icons/espn.svg",
 		"/Users/elliottmunoz/GitHub/clients/e/assets/javascripts/pointers.js",
 		"/Users/elliottmunoz/GitHub/clients/e/pointers.html",
 		"/Users/elliottmunoz/GitHub/svg/post.html",
@@ -178,9 +182,11 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Dolly",
+			"dolly",
 			"</a></li>",
 			"We got links dog!!!",
 			"\">\n",
@@ -192,6 +198,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Pitcher",
+			"pitcher"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -245,7 +253,7 @@
 	"project": "espn.sublime-project",
 	"replace":
 	{
-		"height": 80.0
+		"height": 98.0
 	},
 	"save_all_on_build": true,
 	"select_file":

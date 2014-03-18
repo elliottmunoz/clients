@@ -42,6 +42,10 @@
       <figcaption>Randall Delgado</figcaption>
       <img src="assets/images/hotzone/randall-delgado-strike-zone.png" id="randall-delgado" />
     </figure>
+    <figure>
+      <figcaption>Trevor Cahill</figcaption>
+      <img src="assets/images/hotzone/trevor-cahill-strike-zone.png" id="trevor-cahill" />
+    </figure>
   </div>
   <script src="assets/javascripts/close-pixelate.js"></script>
   <script>
@@ -55,6 +59,7 @@
       var pitcher6 = document.getElementById('josh-collmenter')
       var pitcher7 = document.getElementById('patrick-corbin')
       var pitcher8 = document.getElementById('randall-delgado')
+      var pitcher9 = document.getElementById('trevor-cahill')
 
       var pixelOpts = [
       { shape: 'diamond', resolution: 14, size: 27, offset: 15, alpha: 0.991 },
@@ -70,6 +75,7 @@
       var pixelPitcher6 = pitcher6.closePixelate( pixelOpts )
       var pixelPitcher7 = pitcher7.closePixelate( pixelOpts )
       var pixelPitcher8 = pitcher8.closePixelate( pixelOpts )
+      var pixelPitcher9 = pitcher9.closePixelate( pixelOpts )
 
       var range = document.getElementById('range')
       var output = document.getElementById('output')
@@ -83,6 +89,7 @@
         pixelPitcher6.render( pixelOpts )
         pixelPitcher7.render( pixelOpts )
         pixelPitcher8.render( pixelOpts )
+        pixelPitcher9.render( pixelOpts )
 
       }, false )
     }
