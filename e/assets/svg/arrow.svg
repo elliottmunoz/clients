@@ -2,6 +2,6 @@
 	 width="64px" height="64px" viewBox="0 0 64 64">
 <circle cx="32" cy="32" r="32"/>
 <polygon fill="#FFFFFF" points="29.079,44 41.08,32 29.079,20 26.92,22.159 36.762,32 26.92,41.841 ">
-<animateTransform attributeName="transform" type="translate" dur="0.5s" fill="freeze" values="-1, 0;2,0;-1,0" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" dur="0.5s" fill="freeze" values="-2, 0;2,0;-2,0" repeatCount="indefinite"/>
 </polygon>
 </svg>
